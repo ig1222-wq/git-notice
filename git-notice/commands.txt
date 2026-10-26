@@ -1,2 +1,95 @@
-git init — создаёт новый репозиторий
-git add — добавляет файлы в индекс
+# ===== Скомпилированные файлы =====
+*.o
+*.obj
+*.lo
+*.slo
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.bin
+*.elf
+*.hex
+
+# ===== CMake =====
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# ===== Сборка (типичные папки) =====
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+obj/
+lib/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# ===== Зависимости / пакетные менеджеры =====
+vcpkg_installed/
+conan/
+.conan/
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+_deps/
+packages/
+
+# ===== Отладка и профилирование =====
+*.pdb
+*.ilk
+*.idb
+*.gch
+*.pch
+*.dSYM/
+vgcore.*
+callgrind.out.*
+perf.data*
+*.gcda
+*.gcno
+*.gcov
+
+# ===== IDE / Редакторы =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.clangd/
+.cache/
+compile_commands.json
+
+# ===== Логи и временные файлы =====
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Секреты / окружение =====
+.env
+.env.local
+*.key
+*.pem
+secrets.*
